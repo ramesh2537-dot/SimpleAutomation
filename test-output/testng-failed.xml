@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [nopCommerceSuite Test Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="nopCommerce(failed)">
+    <classes>
+      <class name="pru.spt.test.EclientAppTest">
+        <parameter name="eclientAppTestData" value="Eclient_online/PLUS/EclientAppData_On02.json"/>
+        <methods>
+          <include name="validateEclientAppTest_01"/>
+          <include name="deleteInterviewResultsFromDb"/>
+          <include name="validateEclientAppTest_02"/>
+        </methods>
+      </class> <!-- pru.spt.test.EclientAppTest -->
+    </classes>
+  </test> <!-- nopCommerce(failed) -->
+</suite> <!-- Failed suite [nopCommerceSuite Test Suite] -->

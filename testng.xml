@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="nopCommerceSuite Test Suite" parallel="methods" thread-count="1">
+
+<!--<listeners>
+<listener class-name="pru.spt.utils.ExtentReportManager"> </listener>
+</listeners> --> 
+
+  <test name="nopCommerce" preserve-order="true" enabled="true">
+    <classes>
+      <class name="pru.spt.test.EclientAppTest">
+      <methods>
+      
+        <include name="validateEclientAppTest_01"/>
+        <parameter name="eclientAppTestData"
+         value="Eclient_online/PLUS/EclientAppData_On01.json"/>
+        
+       <include name="validateEclientAppTest_02"/>
+        <parameter name="eclientAppTestData"
+         value="Eclient_online/PLUS/EclientAppData_On02.json"/>
+        
+        <!-- <include name="validateEclientAppTest_03"/>
+        <parameter name="eclientAppTestData"
+         value="test.json"/>
+        
+        <include name="validateEclientAppTest_04"/>
+        <parameter name="eclientAppTestData"
+         value="test.json"/>
+        
+        <include name="validateEclientAppTest_05"/>
+        <parameter name="eclientAppTestData"
+         value="test.json"/> --> 
+        
+         
+        
+        </methods>
+        </class>
+    </classes>
+  </test>
+</suite>

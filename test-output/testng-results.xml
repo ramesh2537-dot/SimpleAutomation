@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-22T16:27:06Z" name="nopCommerceSuite Test Suite" finished-at="2025-10-22T16:27:06Z" duration-ms="76">
+    <groups>
+    </groups>
+    <test started-at="2025-10-22T16:27:06Z" name="nopCommerce" finished-at="2025-10-22T16:27:06Z" duration-ms="76">
+      <class name="pru.spt.test.EclientAppTest">
+        <test-method is-config="true" signature="deleteInterviewResultsFromDb()[pri:0, instance:pru.spt.test.EclientAppTest@14d3bc22]" started-at="2025-10-22T21:57:06Z" name="deleteInterviewResultsFromDb" finished-at="2025-10-22T21:57:06Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteInterviewResultsFromDb -->
+        <test-method signature="validateEclientAppTest_01(java.lang.String, java.lang.String)[pri:0, instance:pru.spt.test.EclientAppTest@14d3bc22]" started-at="2025-10-22T21:57:06Z" name="validateEclientAppTest_01" description="Validate Eclient App Test 01" data-provider="BrowserPropertyDP" finished-at="2025-10-22T21:57:06Z" duration-ms="10" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: validateEclientAppTest_01([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)chrome,(java.lang.String)test.json,(java.lang.String)QA,(java.lang.String)someProperties]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: validateEclientAppTest_01([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)chrome,(java.lang.String)test.json,(java.lang.String)QA,(java.lang.String)someProperties]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEclientAppTest_01 -->
+        <test-method signature="validateEclientAppTest_02(java.lang.String, java.lang.String)[pri:0, instance:pru.spt.test.EclientAppTest@14d3bc22]" started-at="2025-10-22T21:57:06Z" name="validateEclientAppTest_02" description="Validate Eclient App Test 02" data-provider="BrowserPropertyDP" finished-at="2025-10-22T21:57:06Z" duration-ms="1" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: validateEclientAppTest_02([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)chrome,(java.lang.String)test.json,(java.lang.String)QA,(java.lang.String)someProperties]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: validateEclientAppTest_02([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)chrome,(java.lang.String)test.json,(java.lang.String)QA,(java.lang.String)someProperties]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEclientAppTest_02 -->
+      </class> <!-- pru.spt.test.EclientAppTest -->
+    </test> <!-- nopCommerce -->
+  </suite> <!-- nopCommerceSuite Test Suite -->
+</testng-results>

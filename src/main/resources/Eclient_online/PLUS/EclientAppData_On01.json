@@ -1,0 +1,43 @@
+{
+  "Registration":{
+    "gender":"Male",
+    "firstName":"Hanshika",
+    "lastName":"Motwani",
+    "email":"ramesh112@gmail.com",
+    "companyName":"Pnc",
+    "newsLetter":"No",
+    "password":"i1n2d3i4",
+    "confirmPassword":"i1n2d3i4"
+  },
+  "Computers":{
+	 "Productlist":{
+	 	"product":"Desktops",
+	 "optionsArray": ["Dell"],
+	 
+	 	"Dell":{
+	 	"addtoCart":"Yes",
+	 	"addtoCompareList":"",
+	 	"addtoWishList":""
+	 	
+	 	},
+	 	"Vanquish":{
+	 	"addtoCart":"",
+	 	"addtoCompareList":"",
+	 	"addtoWishList":""
+	 	
+	 	},
+	 	"Lenovo":{
+	 	"addtoCart":"",
+	 	"addtoCompareList":"",
+	 	"addtoWishList":""
+	 	
+	 	}
+	}
+}
+
+}
+	 
+    
+  
+  
+

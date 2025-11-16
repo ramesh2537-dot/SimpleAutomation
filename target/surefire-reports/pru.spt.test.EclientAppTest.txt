@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pru.spt.test.EclientAppTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 s -- in pru.spt.test.EclientAppTest
